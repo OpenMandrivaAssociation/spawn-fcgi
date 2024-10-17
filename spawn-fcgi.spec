@@ -4,7 +4,7 @@ Release: 1
 Summary: Simple program for spawning FastCGI processes
 License: BSD
 Group:   System/Servers
-URL:     http://redmine.lighttpd.net/projects/spawn-fcgi/
+URL:     https://redmine.lighttpd.net/projects/spawn-fcgi/
 Source0: http://www.lighttpd.net/download/spawn-fcgi-%{version}.tar.bz2
 
 %description
