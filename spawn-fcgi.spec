@@ -7,6 +7,11 @@ Group:   System/Servers
 URL:     https://redmine.lighttpd.net/projects/spawn-fcgi/
 Source0: http://www.lighttpd.net/download/spawn-fcgi-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This package contains the spawn-fcgi program used for spawning FastCGI
 processes, which can be local or remote.
